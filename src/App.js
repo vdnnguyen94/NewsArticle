@@ -15,7 +15,7 @@ function App() {
           </li>
           <li>
             <a href="#vr-tour" className="nav-link">
-              VR Tour
+              VR Tour & Expert Insight
             </a>
           </li>
           <li>
@@ -54,7 +54,7 @@ function App() {
         <section id="introduction" className="section">
           <h2>Introduction</h2>
           <p>
-Virtual Reality (VR) is rapidly transforming healthcare education and patient care. During our visit on May 30 2026 at 1 : 30 p.m. to the Diane Blake Center of Excellence for VR at Fanshawe College, we interviewed VR technologist Bhavesh Savaliya, who shared valuable insights into how immersive technology can revolutionize training and service delivery at LHSC. In this article, we’ll introduce VR’s core benefits, highlight the VR tour experience, and outline key applications that LHSC can adopt in both acute-care and long-term-care settings.
+Virtual Reality (VR) is rapidly transforming healthcare education and patient care. During our visit on May 30 2025 at 1:30 p.m. to the Diane Blake Center of Excellence for VR at Fanshawe College, we interviewed VR technologist Bhavesh Savaliya, who shared valuable insights into how immersive technology can revolutionize training and service delivery at LHSC. In this article, we’ll introduce VR’s core benefits, highlight the VR tour experience, and outline key applications that LHSC can adopt in both acute-care and long-term-care settings.
           </p>
         </section>
 
@@ -64,8 +64,7 @@ Virtual Reality (VR) is rapidly transforming healthcare education and patient ca
           <p>
             Our first stop was a fully immersive emergency response simulation.
             Picture a virtual trauma room where a patient arrives in critical
-            condition—our interprofessional team (nurses, physicians,
-            respiratory therapists) must coordinate seamlessly. VR lets teams
+            condition—our interprofessional team must coordinate seamlessly. VR lets teams
             practice high‐pressure scenarios without risk to real patients. It
             replicates the stress of a real code blue, training clinicians to
             improve role clarity, communication, and reaction time.
@@ -98,11 +97,9 @@ Virtual Reality (VR) is rapidly transforming healthcare education and patient ca
 
           <h3>VR Expert Insight</h3>
           <p>
-            We interviewed a VR technologist to understand how HSY2’s
-            interprofessional principles integrate with the VR platform.
-            According to them, “VR interjects by enabling real‐time role‐based
-            feedback—mixing clinical scenarios with data analytics so teams can
-            see where bottlenecks occur during high‐pressure events.”
+Bhavesh Savaliya points out that VR lets clinicians rehearse high-stakes tasks—clean-in/clean-out, PPE donning, EHR navigation—under realistic pressure without risking patient safety. Its repeatable scenarios provide data on response times, charting accuracy, and communication, helping educators pinpoint gaps. On the downside, initial costs for headsets and software can be high, and some users may experience motion sensitivity or technical glitches. Bhavesh stresses that VR should enhance, not replace, hands-on rotations.
+
+Beyond the trauma bay, LHSC could adopt Body Swap—a module where nurses experience limited mobility or patient anxiety, then return to their role with fresh empathy. By literally “walking in the patient’s shoes,” caregivers learn both procedural skills and patient-centered communication in a low-risk environment.
           </p>
 
           <h3>Pros &amp; Cons</h3>
