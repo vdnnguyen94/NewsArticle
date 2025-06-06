@@ -54,14 +54,7 @@ function App() {
         <section id="introduction" className="section">
           <h2>Introduction</h2>
           <p>
-            Virtual Reality (VR) is rapidly transforming healthcare education and
-            patient care. During our recent visit to the Diane Blake Center of
-            Excellence for VR at Fanshawe College, we had the opportunity to
-            explore how immersive technology can revolutionize training and
-            service delivery at LHSC. In this article, we’ll introduce VR’s core
-            benefits, highlight the VR tour experience, and outline key
-            applications that LHSC can adopt in both acute care and long‐term
-            care settings.
+Virtual Reality (VR) is rapidly transforming healthcare education and patient care. During our visit on May 30 2026 at 1 : 30 p.m. to the Diane Blake Center of Excellence for VR at Fanshawe College, we interviewed VR technologist Bhavesh Savaliya, who shared valuable insights into how immersive technology can revolutionize training and service delivery at LHSC. In this article, we’ll introduce VR’s core benefits, highlight the VR tour experience, and outline key applications that LHSC can adopt in both acute-care and long-term-care settings.
           </p>
         </section>
 
