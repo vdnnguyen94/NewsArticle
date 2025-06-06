@@ -1,38 +1,160 @@
+/* src/App.css */
+
+/* Reset some default margins */
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+}
+
+/* Container for the entire page */
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Header / Title styling */
+.header {
+  text-align: center;
+  margin: 2rem 1rem 1rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+.newsletter-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #800000; /* Fanshawe Red */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.subtitle {
+  font-size: 1rem;
+  font-style: italic;
+  color: #555;
+  margin: 0;
+}
+.subtitle-service {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 0.25rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Main container (centers content and limits width) */
+.main-container {
+  max-width: 800px;
+  width: 100%;
+  padding: 0 1rem 2rem;
+}
+
+/* Each section (spacing between them) */
+.section {
+  margin-bottom: 2.5rem;
+}
+.section h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+
+/* Paragraphs */
+.section p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Photo grid */
+.photo-grid {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.photo-grid div {
+  flex: 1;
+}
+.grid-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+/* Single image container (responsive) */
+.image-container {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.responsive-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Video container */
+.video-container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.responsive-video {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Endnotes / logo */
+.endnotes p {
+  margin-bottom: 1rem;
+}
+.image-container.logo {
+  text-align: center;
+  margin-top: 1rem;
+}
+.logo-img {
+  width: 150px;
+  object-fit: contain;
+  display: inline-block;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 200px;
+  background-color: #333;
+  padding-top: 2rem;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li {
+  margin-bottom: 1rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #555;
 }
